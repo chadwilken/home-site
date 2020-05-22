@@ -1,209 +1,171 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Sell Your House for Cash in Lincoln, NE</title>
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,user-scalable=no"
+        />
+        <meta
+          name="description"
+          content="We buy homes for cash in Lincoln and surrounding areas. Receive a cash offer for your home."
+        />
+        <meta
+          property="og:site_name"
+          content="Sell Your House for Cash in Lincoln, NE"
+        />
+        <meta
+          property="og:title"
+          content="Sell Your House for Cash in Lincoln, NE"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:description"
+          content="We buy homes for cash in Lincoln and surrounding areas. Receive a cash offer for your home."
+        />
+        <meta
+          property="og:image"
+          content="https://buyhomesinlincoln.carrd.co/assets/images/card.jpg?v02891116710951"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1280" />
+        <meta property="og:image:height" content="800" />
+        <meta property="og:url" content="https://sellyourhomeinlincoln.com" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Muli:700,700italic,400,400italic,900,900italic%7CRoboto:500,500italic,700,700italic,900,900italic%7CSource+Sans+Pro:700,700italic,900,900italic"
+          rel="stylesheet"
+          type="text/css"
+        />
       </Head>
 
-      <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/zeit/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div id="wrapper">
+        <div id="main">
+          <div className="inner">
+            <section id="home-section" className="active">
+              <div id="container01" className="container columns">
+                <div className="inner">
+                  <div>
+                    <h2 id="text04">
+                      Sell Your House for{" "}
+                      <span style={{ color: "#2D3748" }}>Cash</span>
+                    </h2>
+                    <h3 id="text03">Sell your house fast in Lincoln, NE</h3>
+                    <p id="text05">
+                      <span>We'll buy your house:</span>
+                      <br />{" "}
+                      <span className="li">
+                        <strong>"As Is"</strong> - Don't worry about costly
+                        repairs or cleaning.
+                      </span>
+                      <span className="li">
+                        <strong>For Cash</strong> - Close on a schedule that
+                        works for you.
+                      </span>
+                      <span className="li">
+                        <strong>No Fees</strong> - We cover <strong>all</strong>{" "}
+                        costs for closing.
+                      </span>
+                      <br />{" "}
+                      <span>
+                        Why us? We <strong>live in</strong> and are dedicated to
+                        investing in Lincoln.
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <h2 id="text06">Get Your Cash Offer</h2>
+                    <p id="text02">
+                      Provide your details below to receive an offer
+                    </p>
+                    <form
+                      id="form01"
+                      action="https://getform.io/f/02de2eb0-c11b-49ba-8d14-ec7ca794218b"
+                      method="POST"
+                    >
+                      <div className="inner">
+                        <div className="field">
+                          <input
+                            type="text"
+                            name="name"
+                            id="form01-name"
+                            placeholder="Name"
+                            maxLength="128"
+                            required=""
+                          />
+                        </div>
+                        <div className="field">
+                          <input
+                            type="text"
+                            name="phone"
+                            id="form01-phone"
+                            placeholder="Phone Number"
+                            maxLength="128"
+                            required=""
+                          />
+                        </div>
+                        <div className="field">
+                          <input
+                            type="text"
+                            name="address"
+                            id="form01-address"
+                            placeholder="Property Address"
+                            maxLength="128"
+                            required=""
+                          />
+                        </div>
+                        <div className="field">
+                          <input
+                            type="text"
+                            name="asking"
+                            id="form01-asking"
+                            placeholder="Asking Price? (optional)"
+                            maxLength="128"
+                          />
+                        </div>
+                        <div className="actions">
+                          <button type="submit">Get Your Offer</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div id="container04" className="container columns">
+                <div className="inner">
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </section>
+            <section
+              id="done-section"
+              className="inactive"
+              style={{ display: "none" }}
+            >
+              <div id="container03" className="container default">
+                <div className="inner">
+                  <h2 id="text08">Thank you!</h2>
+                  <p id="text09">
+                    Someone will be in contact with you shortly!
+                  </p>
+                  <ul id="buttons02" className="buttons">
+                    <li>
+                      <a href="#home" className="button n01">
+                        Okay
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
         </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+      </div>
     </div>
-  )
+  );
 }
