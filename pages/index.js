@@ -4,6 +4,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-167426523-1"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-167426523-1');`,
+          }}
+        ></script>
+
         <title>Sell Your House for Cash in Lincoln, NE</title>
         <meta charSet="utf-8" />
         <meta
